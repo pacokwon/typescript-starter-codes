@@ -1,3 +1,4 @@
+// src/generics.ts
 function identity<T>(x: T) {
     return x;
 }

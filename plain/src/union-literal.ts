@@ -1,3 +1,4 @@
+// src/union-literal.ts
 interface SamsungUser {
     manufacturer: "samsung";
     username: string;
@@ -39,7 +40,9 @@ usersList.forEach(user => {
     if (user.manufacturer === "samsung") {
         console.log(user.id[user.id.length - 1]);
     } else if (user.manufacturer === "apple") {
-        // console.log(user.id[user.id.length - 1]); // Property 'length' does not exist on type 'number'
-        console.log(user.id % 10); // working code
+        console.log(user.id[user.id.length - 1]); // error!
+        // console.log(user.id % 10); // working code
     }
 })
+
+
