@@ -1,0 +1,11 @@
+root = true
+
+[**]
+insert_final_newline = true
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+indent_style = space
+
+[**.{ts,json}]
+indent_size = 2

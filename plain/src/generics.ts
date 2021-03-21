@@ -1,6 +1,6 @@
 // src/generics.ts
 function identity<T>(x: T) {
-    return x;
+  return x;
 }
 
 const str_i = identity<string>('a');
